@@ -4,8 +4,6 @@
 def prime?(n)
   if n == 2 || n == 3
     true
-#  elsif n == 3
-#    true
   elsif n < 2
     false
   elsif n.even?
