@@ -6,8 +6,8 @@ def prime?(n)
     true
   elsif n < 2
     false
-  elsif n.even?
-    false
+  #elsif n.even?
+  #  false
   elsif (2..n/2).none?{|i| n % i == 0}
     true
   else
