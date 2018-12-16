@@ -8,7 +8,7 @@ def prime?(n)
     false
   #elsif n.even?
   #  false
-elsif (2..n/2).none?{|i| n % i == 0}
+  elsif (2..n/2).none?{|i| n % i == 0}
     true
   else
     false
